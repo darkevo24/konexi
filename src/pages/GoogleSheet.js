@@ -83,7 +83,7 @@ export default function GoogleSheet() {
           </button>
         </div>
       </div>
-      <button className=' text-white w-full h-8 py-[10px] px-3 gap-[10px] bg-[#2483F3] rounded-[5px] flex items-center justify-center'>
+      <button className=' hover:bg-blue-700 text-white w-full h-8 py-[10px] px-3 gap-[10px] bg-[#2483F3] rounded-[5px] flex items-center justify-center'>
         <p className=' font-[600px] text-[11px] leading-[13px]'>Export</p>
       </button>
       <p className=' w-full font-[500px] text-[10px] leading-3 text-[#848484] text-center'>Last export 14h ago</p>
