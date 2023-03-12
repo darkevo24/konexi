@@ -7,9 +7,6 @@ export default function GoogleSheet() {
   function toggleOptions() {
     setShowOptions(!showOptions);
   }
-    const handleClick = () => {
-        window.location.href = "/sheet";
-      };
   return (
     <div className=" box-border flex flex-col items-start p-[16px] gap-[12px]  w-[354px] h-auto rounded-md bg-white border border-[#DBDBDB]">
       <div className="flex items-center relative w-full">
